@@ -1,0 +1,93 @@
+body {
+    background-color: lightskyblue;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 10px 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline-flex;
+    margin-left: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+ul li a:hover {
+    background-color: blue;
+}
+
+.logo {
+    max-width: 100px;
+    margin-top: 1px;
+    margin-right: 20px;
+    float: right;
+}
+
+.loremm {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.lorem {
+    width: 30%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.this {
+    text-align: center;
+}
+
+.like {
+    color: red;
+}
+
+.lore {
+    text-align: center;
+    font-size: 16px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px 0;
+}
+
+.icon {
+    text-align: center;
+}
+
+.fa-brands {
+    font-size: 24px;
+    margin: 10px;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
